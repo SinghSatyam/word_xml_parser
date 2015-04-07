@@ -1,0 +1,67 @@
+== README
+
+Steps to run:
+
+* Clone the project
+
+* run 'bundle install'
+
+* Open rails console
+
+* Run the following command:
+
+    def grandparent(obj)
+      obj.parent.parent
+    end
+
+    def get_value_from_styles_hash(complete_styles_hash,style_name)
+      complete_styles_hash[style_name]
+    end
+
+    def get_parsed_document_using_nokogiri(file)
+      Nokogiri::XML::Document.parse(File.open(file))
+    end
+
+
+      doc = get_parsed_document_using_nokogiri("../2.xml")
+      wordDocument = doc.xpath("//w:wordDocument",'w'=>'http://schemas.microsoft.com/office/word/2003/wordml')
+      body = wordDocument.xpath("//w:body",'w'=>'http://schemas.microsoft.com/office/word/2003/wordml')
+
+      styles = {}
+      body.xpath('//w:p//w:pPr//w:pStyle','w'=>'http://schemas.microsoft.com/office/word/2003/wordml').each do |obj,index|
+        style = obj.attributes['val'].value
+        styles[style] = [] unless styles[style].present?
+        grandparent(obj).children.each do |child|
+          child.children.each do |chichi|
+            styles[style].push(chichi.text) if chichi.name=="t"
+          end
+        end
+      end
+
+* To check output:
+Here are few Values:
+get_value_from_styles_hash(styles,"P5")
+get_value_from_styles_hash(styles,"Author_28_s_29_")
+get_value_from_styles_hash(styles,"Affiliation")
+get_value_from_styles_hash(styles,"Abstract_5f_En")
+get_value_from_styles_hash(styles,"Abstract_5f_head")
+get_value_from_styles_hash(styles,"AbstractSectionHead")
+get_value_from_styles_hash(styles,"AbstractSectionPara")
+get_value_from_styles_hash(styles,"Abstract_5f_End")
+get_value_from_styles_hash(styles,"Head1")
+get_value_from_styles_hash(styles,"Para_5f_FL")
+get_value_from_styles_hash(styles,"Head2")
+get_value_from_styles_hash(styles,"Head3")
+get_value_from_styles_hash(styles,"Table_5f_caption")
+get_value_from_styles_hash(styles,"Table_5f_style")
+get_value_from_styles_hash(styles,"Table_5f_column_5f_head")
+get_value_from_styles_hash(styles,"Table_5f_body")
+get_value_from_styles_hash(styles,"Table_5f_footnote")
+get_value_from_styles_hash(styles,"Figure_5f_legend")
+get_value_from_styles_hash(styles,"Acknowledge_5f_head")
+get_value_from_styles_hash(styles,"Acknowledgment")
+get_value_from_styles_hash(styles,"Bib_5f_head")
+get_value_from_styles_hash(styles,"Bib_5f_entry")
+get_value_from_styles_hash(styles,"CommentText")
+get_value_from_styles_hash(styles,"P1")
+get_value_from_styles_hash(styles,"P2")
