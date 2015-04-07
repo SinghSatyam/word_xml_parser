@@ -12,4 +12,4 @@ Steps to run:
 
 * Open browser and type 'localhost:3000'
 
-* You should see the parse XML
+* You should see the parsed XML

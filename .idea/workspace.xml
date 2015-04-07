@@ -21,7 +21,7 @@
     <file path="/parses_controller_spec.rb" changelist="cba91c2b-a5c5-44aa-9540-21d19fb9d7cc" time="1428389101761" ignored="false" />
     <file path="/parses_controller.rb" changelist="cba91c2b-a5c5-44aa-9540-21d19fb9d7cc" time="1428390688868" ignored="false" />
     <file path="/development.rb" changelist="cba91c2b-a5c5-44aa-9540-21d19fb9d7cc" time="1428389645400" ignored="false" />
-    <file path="/README.rdoc" changelist="cba91c2b-a5c5-44aa-9540-21d19fb9d7cc" time="1428393144975" ignored="false" />
+    <file path="/README.rdoc" changelist="cba91c2b-a5c5-44aa-9540-21d19fb9d7cc" time="1428393242707" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
       <file leaf-file-name="README.rdoc" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.rdoc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="30" selection-start="226" selection-end="226" vertical-scroll-proportion="0.35775128">
+            <state line="14" column="27" selection-start="223" selection-end="223" vertical-scroll-proportion="0.35775128">
               <folding />
             </state>
           </provider>
@@ -571,7 +571,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.rdoc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="30" selection-start="226" selection-end="226" vertical-scroll-proportion="0.35775128">
+        <state line="14" column="27" selection-start="223" selection-end="223" vertical-scroll-proportion="0.35775128">
           <folding />
         </state>
       </provider>
