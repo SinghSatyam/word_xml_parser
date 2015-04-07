@@ -21,6 +21,7 @@
     <file path="/parses_controller_spec.rb" changelist="cba91c2b-a5c5-44aa-9540-21d19fb9d7cc" time="1428389101761" ignored="false" />
     <file path="/parses_controller.rb" changelist="cba91c2b-a5c5-44aa-9540-21d19fb9d7cc" time="1428390688868" ignored="false" />
     <file path="/development.rb" changelist="cba91c2b-a5c5-44aa-9540-21d19fb9d7cc" time="1428389645400" ignored="false" />
+    <file path="/README.rdoc" changelist="cba91c2b-a5c5-44aa-9540-21d19fb9d7cc" time="1428393144975" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +41,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="parses_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="parses_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/parses_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="20" selection-start="760" selection-end="760" vertical-scroll-proportion="0.43441227">
+            <state line="9" column="51" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.rdoc" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.rdoc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="30" selection-start="226" selection-end="226" vertical-scroll-proportion="0.35775128">
               <folding />
             </state>
           </provider>
@@ -71,6 +81,7 @@
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/parses_controller.rb" />
+        <option value="$PROJECT_DIR$/README.rdoc" />
       </list>
     </option>
   </component>
@@ -553,7 +564,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/parses_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="20" selection-start="760" selection-end="760" vertical-scroll-proportion="0.43441227">
+        <state line="9" column="51" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="30" selection-start="226" selection-end="226" vertical-scroll-proportion="0.35775128">
           <folding />
         </state>
       </provider>
